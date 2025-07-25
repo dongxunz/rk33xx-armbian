@@ -52,7 +52,7 @@ on:
       armbian_kernel:
         description: "Select kernel version."
         required: false
-        default: "6.1.87"
+        default: "6.12.39"
         type: choice
         options:
           - 5.10.y
@@ -69,7 +69,7 @@ on:
           - 6.6.66
           - 6.6.87
           - 6.1.y_6.6.y
-          - 6.12.23
+          - 6.12.39
       auto_kernel:
         description: "Auto use the latest kernel."
         required: false
@@ -78,7 +78,7 @@ on:
       kernel_repo:
         description: "Set the kernel repository."
         required: false
-        default: "hellotheasia/kernel"
+        default: "ophub/kernel"
         type: choice
         options:
           - Lemon1151/kernel
