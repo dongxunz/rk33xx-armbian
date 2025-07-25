@@ -182,7 +182,7 @@ jobs:
           df -hT ${PWD}
           git clone -q --single-branch --depth=1 --branch=${{ github.event.inputs.armbian_version }} https://github.com/armbian/build.git build
           ln -sf /builder/build ${GITHUB_WORKSPACE}/build
-          ln -sf /builder/build /home/runner/work/_actions/Lemon1151/rk33xx-armbian/main/build
+          ln -sf /builder/build /home/runner/work/_actions/dongxunz/rk33xx-armbian/main/build
           echo "status=success" >> ${GITHUB_OUTPUT}
 
       - name: Compile Armbian [ ${{ inputs.set_release }} ]
