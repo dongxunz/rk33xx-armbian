@@ -22,7 +22,7 @@ on:
       armbian_board:
         description: "Select device board."
         required: false
-        default: "zysja2"
+        default: "zysj"
         type: choice
         options:
           - all
