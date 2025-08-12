@@ -40,7 +40,6 @@ on:
           - cyber3588-aib
           - sv-33a6x
           - tn3399
-          - lckfb-tspi
       armbian_version:
         description: 'Select armbian version'
         default: 'main'
@@ -72,7 +71,6 @@ on:
           - 6.6.87
           - 6.1.y_6.6.y
           - 6.12.39
-          - 6.1.115
       auto_kernel:
         description: "Auto use the latest kernel."
         required: false
