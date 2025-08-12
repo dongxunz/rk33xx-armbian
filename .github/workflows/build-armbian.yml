@@ -40,6 +40,7 @@ on:
           - cyber3588-aib
           - sv-33a6x
           - tn3399
+          - lckfb-tspi
       armbian_version:
         description: 'Select armbian version'
         default: 'main'
